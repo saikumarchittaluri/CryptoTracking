@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111111;
+    color: azure;
+}
+
+.navbar{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 40px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.left{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navmenu a{
+    text-decoration: none;
+    padding: 5px;
+    color: azure;
+}
+
+.dash{
+    width: 100px;
+    height: 35px;
+    background-color:#4A80E2 ;
+    color:#FFFFFF ;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.head{
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+    width: 100%;
+}
+
+.tabs button{
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 600px;
+    background-color: #111111;
+    color: #fff;
+    border: none;
+}
+.crypto-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .crypto-card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .crypto-card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .crypto-table th,
+  .crypto-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .crypto-table th {
+    background-color: #111111;
+    color: #2196F3;
+  }
+  
+  /* Add styles for the active tab */
+  .tab.active {
+    background-color: #2196F3;
+    color: #fff;
+  }
